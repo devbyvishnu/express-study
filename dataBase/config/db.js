@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const connectDB = async () => {
-    const MONGO_URL = 'mongodb+srv://vishnu:vishnu5739@cluster0.w7l7dlz.mongodb.net/express'
+    const MONGO_URL = 'Enter mongoDB URL here';
 
  await mongoose.connect(MONGO_URL).then(() => {
     console.log('MongoDB connected');
